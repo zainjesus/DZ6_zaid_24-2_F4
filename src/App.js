@@ -14,7 +14,7 @@ export default function Slider() {
   };
 
   const handleNextSlide = () => {
-    setCurrentSlide((prevSlide) => (prevSlide === 4 ? 0 : prevSlide + 1));
+    setCurrentSlide((nextSlide) => (nextSlide === 4 ? 0 : nextSlide + 1));
   };
 
   return (
